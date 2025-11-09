@@ -40,15 +40,18 @@ em {
     color: #A5B4FC;
 }
 
-p, li {
+p,
+li {
     color: #f9f8ff;
 }
 
-h2, ul {
+h2,
+ul {
     margin-top: 20px;
 }
 
-nav, footer {
+nav,
+footer {
     background-color: white;
     padding: 20px 50px;
     display: flex;
@@ -61,14 +64,19 @@ nav, footer {
     margin-left: 30px;
 } */
 
-nav, footer a {
+nav,
+footer a {
     color: #242424;
 }
 
 .cta {
     background: linear-gradient(#8e86b5, #acaeed);
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 17px;
+    font-weight: 400;
     color: white;
     border-radius: 50px;
+    padding: 10px;
 }
 
 .cta:hover {
@@ -97,6 +105,11 @@ section {
 .accueil-intro {
     display: flex;
     width: 50%;
-    /* align-items: center; */
     margin: auto;
+}
+
+.accueil-intro h1,
+p {
+    margin-bottom: 50px;
+    margin-right: 70px;
 }
